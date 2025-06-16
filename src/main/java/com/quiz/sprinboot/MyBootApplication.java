@@ -19,3 +19,4 @@ public class MyBootApplication {
 //update the java <!--properties-->
 // add some background color to homepage
 // after login display some message. login successfully done. dash board etc.
+//lombok

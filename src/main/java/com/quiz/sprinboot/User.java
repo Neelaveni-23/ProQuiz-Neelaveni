@@ -4,6 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "myusers")
+//@Getters
 public class User {
 	@Id
 	@Column(name = "userId")
@@ -52,6 +53,8 @@ public class User {
 		this.status = status;
 	}
 
+	
+	//lombok
 	public Integer getUserId() {
 		return userId;
 	}
