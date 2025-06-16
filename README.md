@@ -12,4 +12,7 @@ status char(15)
 insert into myusers(userId,fullName,email,phone,password,status) 
 values(101,'Neelaveni','neelimadande23.mca@gmail.com',9052260983,'neelima123','Active');
 
+# To check dependency tree
+mvn dependency:tree > proquiz.txt
+
 
