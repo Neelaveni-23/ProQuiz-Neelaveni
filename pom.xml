@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.quiz.springboot</groupId>
-	<artifactId>proquiz-springboot-project</artifactId>
+	<artifactId>proquiz-neelaveni</artifactId>
 	<version>1.0</version>
-	<name>proquiz-springboot-project</name>
+	<name>proquiz-neelaveni</name>
 	<description>This is ProQuiz using SpringBoot</description>
 	
 	<parent>
