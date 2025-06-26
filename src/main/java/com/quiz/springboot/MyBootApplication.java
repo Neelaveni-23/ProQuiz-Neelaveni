@@ -1,16 +1,15 @@
-package com.quiz.sprinboot;
+package com.quiz.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.quiz.springboot")
 public class MyBootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyBootApplication.class, args);
 	}
 }
-
 
 //com.quiz.sprinboot.controller -> all ur controllers
 //com.quiz.sprinboot.service -> all ur service
