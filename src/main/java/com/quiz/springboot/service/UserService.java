@@ -1,7 +1,10 @@
-package com.quiz.sprinboot;
+package com.quiz.springboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.quiz.springboot.User;
+import com.quiz.springboot.dao.UserDAO;
 
 @Service
 public class UserService {

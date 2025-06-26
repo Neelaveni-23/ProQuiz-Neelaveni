@@ -1,4 +1,4 @@
-package com.quiz.sprinboot;
+package com.quiz.springboot.service;
 
 import javax.mail.internet.MimeMessage;
 import org.springframework.beans.factory.annotation.Autowired;

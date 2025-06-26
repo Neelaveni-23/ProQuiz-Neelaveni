@@ -1,4 +1,4 @@
-package com.quiz.sprinboot;
+package com.quiz.springboot;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

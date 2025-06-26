@@ -1,4 +1,4 @@
-package com.quiz.sprinboot;
+package com.quiz.springboot.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.quiz.sprinboot;
+package com.quiz.springboot;
 
 import javax.persistence.*;
 

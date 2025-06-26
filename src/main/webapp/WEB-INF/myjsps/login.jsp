@@ -1,4 +1,3 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
@@ -44,20 +43,32 @@ button {
 	border-radius: 6px;
 }
 
+button:disabled {
+	background-color: #9e9e9e;
+	cursor: not-allowed;
+}
+
 .error {
 	color: red;
 	margin-top: 10px;
 	text-align: center;
 }
 </style>
+<script>
+	function disableLoginButton() {
+		const loginBtn = document.getElementById("loginBtn");
+		loginBtn.disabled = true;
+		loginBtn.innerText = "Logging in...";
+	}
+</script>
 </head>
 <body>
 	<div class="login-container">
 		<h2>ProQuiz</h2>
-		<form action="/login" method="post">
+		<form action="/login" method="post" onsubmit="disableLoginButton()">
 			<input type="email" name="email" placeholder="Email" required /> <input
 				type="password" name="password" placeholder="Password" required />
-			<button type="submit">Login</button>
+			<button type="submit" id="loginBtn">Login</button>
 		</form>
 		<div class="error">${error}</div>
 	</div>
