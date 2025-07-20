@@ -1,0 +1,71 @@
+ spring:
+  profiles:
+    active: dev
+  main:
+   banner-mode: console
+  datasource:
+    url: jdbc:mysql://localhost:3306/myproquizdb
+    username: root
+    password: neelu
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        jdbc:
+          batch_size: 20
+        order_inserts: true
+        order_updates: true
+        naming:
+          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+          implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
+
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: neelimadande23.mca@gmail.com
+    password: gsrb xodb sqed sxuw
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+
+  mvc:
+    view:
+      prefix: /WEB-INF/myjsps/
+      suffix: .jsp
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+  devtools:
+    add-properties: false
+
+ logging:
+  level:
+    org.springframework.web: DEBUG
+
+ springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
+ server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:keystore.p12
+    key-store-password: mypassword123
+    key-store-type: PKCS12
+    key-alias: mylocalhost
+ 

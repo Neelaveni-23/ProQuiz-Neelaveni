@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
@@ -5,7 +6,7 @@
 <style>
 body {
 	font-family: 'Segoe UI', sans-serif;
-	background-color: #f2f2f2;
+	background-color: #e6e0fa;
 	display: flex;
 	height: 100vh;
 	align-items: center;
@@ -58,7 +59,7 @@ button:disabled {
 	function disableLoginButton() {
 		const loginBtn = document.getElementById("loginBtn");
 		loginBtn.disabled = true;
-		loginBtn.innerText = "Logging in...";
+		loginBtn.innerText = "Login";
 	}
 </script>
 </head>
@@ -69,6 +70,7 @@ button:disabled {
 			<input type="email" name="email" placeholder="Email" required /> <input
 				type="password" name="password" placeholder="Password" required />
 			<button type="submit" id="loginBtn">Login</button>
+			<p><a href="${pageContext.request.contextPath}/forgot-password">Forgot Password?</a></p>
 		</form>
 		<div class="error">${error}</div>
 	</div>

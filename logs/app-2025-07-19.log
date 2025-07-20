@@ -1,0 +1,429 @@
+2025-07-19 00:06:57 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-07-19 00:06:57 [Thread-6] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-19 00:06:58 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19 00:06:58 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-19 00:06:58 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-19 00:06:58 [restartedMain] INFO  c.quiz.springboot.MyBootApplication - Starting MyBootApplication using Java 17.0.12 with PID 13200 (D:\Project-ProQuiz\ProQuiz-Neelaveni2\target\classes started by neelu in D:\Project-ProQuiz\ProQuiz-Neelaveni2)
+2025-07-19 00:06:58 [restartedMain] DEBUG c.quiz.springboot.MyBootApplication - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-07-19 00:06:58 [restartedMain] INFO  c.quiz.springboot.MyBootApplication - The following 1 profile is active: "default"
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 4 JPA repository interfaces.
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-19 00:06:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-19 00:06:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-19 00:06:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-07-19 00:06:58 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-07-19 00:06:58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 401 ms
+2025-07-19 00:06:58 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-19 00:06:58 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-19 00:06:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-07-19 00:06:58 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4450958c
+2025-07-19 00:06:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-07-19 00:06:58 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-19 00:06:58 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-19 00:06:58 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19 00:06:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-19 00:06:58 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 25 mappings in 'requestMappingHandlerMapping'
+2025-07-19 00:06:58 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-07-19 00:06:58 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-19 00:06:58 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-19 00:06:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-19 00:06:58 [restartedMain] INFO  c.quiz.springboot.MyBootApplication - Started MyBootApplication in 0.848 seconds (process running for 2429.771)
+2025-07-19 00:06:58 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-07-19 00:07:06 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-07-19 00:07:06 [RMI TCP Connection(44)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-19 00:07:06 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19 00:07:06 [RMI TCP Connection(44)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-07-19 00:07:06 [RMI TCP Connection(44)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-07-19 00:07:46 [restartedMain] INFO  c.quiz.springboot.MyBootApplication - Starting MyBootApplication using Java 17.0.12 with PID 5428 (D:\Project-ProQuiz\ProQuiz-Neelaveni2\target\classes started by neelu in D:\Project-ProQuiz\ProQuiz-Neelaveni2)
+2025-07-19 00:07:46 [restartedMain] DEBUG c.quiz.springboot.MyBootApplication - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-07-19 00:07:46 [restartedMain] INFO  c.quiz.springboot.MyBootApplication - The following 1 profile is active: "default"
+2025-07-19 00:07:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-19 00:07:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-19 00:07:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+2025-07-19 00:07:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-19 00:07:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-19 00:07:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-19 00:07:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-07-19 00:07:47 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-07-19 00:07:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-19 00:07:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1402 ms
+2025-07-19 00:07:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-19 00:07:48 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-19 00:07:48 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-19 00:07:48 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-19 00:07:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-19 00:07:48 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@eeaa43d
+2025-07-19 00:07:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-19 00:07:48 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-19 00:07:48 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-19 00:07:49 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-19 00:07:49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19 00:07:49 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-19 00:07:50 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-19 00:07:50 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-19 00:07:50 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 25 mappings in 'requestMappingHandlerMapping'
+2025-07-19 00:07:50 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-07-19 00:07:50 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-19 00:07:50 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-19 00:07:50 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-19 00:07:50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-19 00:07:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-19 00:07:50 [restartedMain] INFO  c.quiz.springboot.MyBootApplication - Started MyBootApplication in 4.345 seconds (process running for 5.099)
+2025-07-19 00:07:58 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-19 00:07:58 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-19 00:07:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-07-19 00:07:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-07-19 00:07:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-07-19 00:07:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@17c8c715
+2025-07-19 00:07:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@aca43f0
+2025-07-19 00:07:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-19 00:07:58 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-07-19 00:07:58 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+2025-07-19 00:07:58 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.UserController#displayLogin()
+2025-07-19 00:07:59 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name [login], model {}
+2025-07-19 00:07:59 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/login.jsp]
+2025-07-19 00:07:59 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:08:12 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/login", parameters={masked}
+2025-07-19 00:08:12 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.UserController#verifyUser(String, String, HttpSession, Model)
+2025-07-19 00:08:12 [http-nio-8080-exec-2] INFO  c.q.s.controller.UserController - Attempting login for user: neelimadande23.mca@gmail.com
+2025-07-19 00:08:12 [http-nio-8080-exec-2] INFO  c.q.springboot.service.UserService - Verifying user with email: neelimadande23.mca@gmail.com
+2025-07-19 00:08:12 [http-nio-8080-exec-2] INFO  c.quiz.springboot.service.OTPService - Generated OTP: 930683
+2025-07-19 00:08:12 [http-nio-8080-exec-2] INFO  c.q.springboot.service.UserService - Generated OTP for neelimadande23.mca@gmail.com: 930683
+2025-07-19 00:08:12 [http-nio-8080-exec-2] INFO  c.q.springboot.service.UserService - Updating OTP for email: neelimadande23.mca@gmail.com
+2025-07-19 00:08:12 [http-nio-8080-exec-2] DEBUG c.q.springboot.service.UserService - OTP updated in database for email: neelimadande23.mca@gmail.com
+2025-07-19 00:08:12 [http-nio-8080-exec-2] INFO  c.q.springboot.service.EmailService - Preparing to send email to: neelimadande23.mca@gmail.com
+2025-07-19 00:08:15 [http-nio-8080-exec-2] INFO  c.q.springboot.service.EmailService - Email successfully sent to: neelimadande23.mca@gmail.com
+2025-07-19 00:08:15 [http-nio-8080-exec-2] INFO  c.q.springboot.service.UserService - OTP email sent to neelimadande23.mca@gmail.com
+2025-07-19 00:08:15 [http-nio-8080-exec-2] INFO  c.q.s.controller.UserController - Login successful for user: neelimadande23.mca@gmail.com
+2025-07-19 00:08:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.view.JstlView - View name [verifyotp], model {}
+2025-07-19 00:08:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/verifyotp.jsp]
+2025-07-19 00:08:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:08:37 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/verify-otp", parameters={masked}
+2025-07-19 00:08:37 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.UserController#verifyOtp(String, HttpSession, Model)
+2025-07-19 00:08:37 [http-nio-8080-exec-3] INFO  c.q.springboot.service.UserService - Verifying OTP for email: neelimadande23.mca@gmail.com
+2025-07-19 00:08:37 [http-nio-8080-exec-3] INFO  c.q.s.controller.UserController - OTP verification successful for email: neelimadande23.mca@gmail.com
+2025-07-19 00:08:37 [http-nio-8080-exec-3] INFO  c.q.springboot.service.UserService - Finding user by email: neelimadande23.mca@gmail.com
+2025-07-19 00:08:37 [http-nio-8080-exec-3] INFO  c.q.s.controller.UserController - Redirecting to teacher home for user: neelimadande23.mca@gmail.com
+2025-07-19 00:08:37 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.view.RedirectView - View name [redirect:], model {}
+2025-07-19 00:08:37 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 302 FOUND
+2025-07-19 00:08:37 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home", parameters={}
+2025-07-19 00:08:37 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:08:37 [http-nio-8080-exec-4] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=null
+2025-07-19 00:08:37 [http-nio-8080-exec-4] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:08:37 [http-nio-8080-exec-4] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:08:37 [http-nio-8080-exec-4] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:08:37 [http-nio-8080-exec-4] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:08:37 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@28507db4], selectedCourse=com.quiz.springboot.entity.MyCourse@28507db4, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], view=null, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:08:37 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:08:38 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:08:41 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=add", parameters={masked}
+2025-07-19 00:08:41 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:08:41 [http-nio-8080-exec-5] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=add
+2025-07-19 00:08:41 [http-nio-8080-exec-5] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:08:41 [http-nio-8080-exec-5] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:08:41 [http-nio-8080-exec-5] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:08:41 [http-nio-8080-exec-5] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:08:41 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@5919af5c], selectedCourse=com.quiz.springboot.entity.MyCourse@5919af5c, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], view=add, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:08:41 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:08:41 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:08:44 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view", parameters={masked}
+2025-07-19 00:08:44 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:08:44 [http-nio-8080-exec-6] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=view
+2025-07-19 00:08:44 [http-nio-8080-exec-6] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:08:44 [http-nio-8080-exec-6] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:08:44 [http-nio-8080-exec-6] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:08:44 [http-nio-8080-exec-6] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:08:44 [http-nio-8080-exec-6] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: null
+2025-07-19 00:08:44 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@f3f245a], selectedCourse=com.quiz.springboot.entity.MyCourse@f3f245a, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 1 of 5 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=null, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:08:44 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:08:44 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:08:48 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=upload", parameters={masked}
+2025-07-19 00:08:48 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:08:48 [http-nio-8080-exec-7] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=upload
+2025-07-19 00:08:48 [http-nio-8080-exec-7] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:08:48 [http-nio-8080-exec-7] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:08:48 [http-nio-8080-exec-7] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:08:48 [http-nio-8080-exec-7] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:08:48 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@2cf77f1b], selectedCourse=com.quiz.springboot.entity.MyCourse@2cf77f1b, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], view=upload, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:08:48 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:08:48 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:09:00 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=add", parameters={masked}
+2025-07-19 00:09:00 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:09:00 [http-nio-8080-exec-8] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=add
+2025-07-19 00:09:00 [http-nio-8080-exec-8] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:09:00 [http-nio-8080-exec-8] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:09:00 [http-nio-8080-exec-8] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:09:00 [http-nio-8080-exec-8] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:09:00 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@229432eb], selectedCourse=com.quiz.springboot.entity.MyCourse@229432eb, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], view=add, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:09:00 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:09:00 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:09:40 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/teacher/add-question", parameters={masked}
+2025-07-19 00:09:40 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#addQuestion(Long, Long, String, String, String, String, String, String, Model, HttpSession)
+2025-07-19 00:09:40 [http-nio-8080-exec-10] INFO  c.q.s.controller.TeacherController - Submitting new question for courseId=101, topicId=1
+2025-07-19 00:09:40 [http-nio-8080-exec-10] INFO  c.q.s.service.QuestionService - Saving single question: vjhbnmmkhjdkxnvcmmvnkjjv
+2025-07-19 00:09:40 [http-nio-8080-exec-10] INFO  c.q.springboot.service.TopicService - Incrementing question count for topicId: 1
+2025-07-19 00:09:40 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.view.RedirectView - View name [redirect:], model {}
+2025-07-19 00:09:40 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 302 FOUND
+2025-07-19 00:09:40 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home", parameters={}
+2025-07-19 00:09:40 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:09:40 [http-nio-8080-exec-1] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=null
+2025-07-19 00:09:40 [http-nio-8080-exec-1] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:09:40 [http-nio-8080-exec-1] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:09:40 [http-nio-8080-exec-1] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:09:40 [http-nio-8080-exec-1] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:09:40 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@2783e583], selectedCourse=com.quiz.springboot.entity.MyCourse@2783e583, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=10), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], view=null, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:09:40 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:09:40 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:09:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view", parameters={masked}
+2025-07-19 00:09:54 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:09:54 [http-nio-8080-exec-2] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=view
+2025-07-19 00:09:54 [http-nio-8080-exec-2] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:09:54 [http-nio-8080-exec-2] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:09:54 [http-nio-8080-exec-2] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:09:54 [http-nio-8080-exec-2] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:09:54 [http-nio-8080-exec-2] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: null
+2025-07-19 00:09:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@4c3af4b], selectedCourse=com.quiz.springboot.entity.MyCourse@4c3af4b, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=10), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 1 of 5 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=null, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:09:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:09:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:09:56 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view&courseId=101&topicId=&page=1", parameters={masked}
+2025-07-19 00:09:56 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:09:56 [http-nio-8080-exec-3] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=101, topicId=null, view=view
+2025-07-19 00:09:56 [http-nio-8080-exec-3] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:09:56 [http-nio-8080-exec-3] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:09:56 [http-nio-8080-exec-3] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:09:56 [http-nio-8080-exec-3] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:09:56 [http-nio-8080-exec-3] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: null
+2025-07-19 00:09:56 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@5533d1e4], selectedCourse=com.quiz.springboot.entity.MyCourse@5533d1e4, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=10), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 2 of 5 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=null, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:09:56 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:09:56 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:06 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/view-full?questionId=102", parameters={masked}
+2025-07-19 00:10:06 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#viewFullQuestion(Long, HttpSession, Model)
+2025-07-19 00:10:06 [http-nio-8080-exec-4] INFO  c.q.s.service.QuestionService - Fetching question by ID: 102
+2025-07-19 00:10:06 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - View name [fullview-question], model {question=MyQuestion(questionId=102, questionText=public class Mobile{
+public static void main(String[] args) {
+double price;
+String model;
+System.out.println(model + price);
+}
+}, correctAnswer=D), org.springframework.validation.BindingResult.question=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:06 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/fullview-question.jsp]
+2025-07-19 00:10:06 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:14 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view&courseId=101&topicId=1", parameters={masked}
+2025-07-19 00:10:14 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:14 [http-nio-8080-exec-5] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=101, topicId=1, view=view
+2025-07-19 00:10:14 [http-nio-8080-exec-5] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:14 [http-nio-8080-exec-5] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:14 [http-nio-8080-exec-5] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:14 [http-nio-8080-exec-5] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:14 [http-nio-8080-exec-5] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: 1
+2025-07-19 00:10:14 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@48dfd28e], selectedCourse=com.quiz.springboot.entity.MyCourse@48dfd28e, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=10), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 1 of 2 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=1, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:14 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:14 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:17 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view&courseId=101&topicId=1&page=1", parameters={masked}
+2025-07-19 00:10:17 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:17 [http-nio-8080-exec-6] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=101, topicId=1, view=view
+2025-07-19 00:10:17 [http-nio-8080-exec-6] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:17 [http-nio-8080-exec-6] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:17 [http-nio-8080-exec-6] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:17 [http-nio-8080-exec-6] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:17 [http-nio-8080-exec-6] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: 1
+2025-07-19 00:10:17 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@1f8087d2], selectedCourse=com.quiz.springboot.entity.MyCourse@1f8087d2, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=10), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 2 of 2 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=1, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:17 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:17 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:20 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/view-full?questionId=115", parameters={masked}
+2025-07-19 00:10:20 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#viewFullQuestion(Long, HttpSession, Model)
+2025-07-19 00:10:20 [http-nio-8080-exec-7] INFO  c.q.s.service.QuestionService - Fetching question by ID: 115
+2025-07-19 00:10:20 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - View name [fullview-question], model {question=MyQuestion(questionId=115, questionText=vjhbnmmkhjdkxnvcmmvnkjjv, correctAnswer=B), org.springframework.validation.BindingResult.question=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:20 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/fullview-question.jsp]
+2025-07-19 00:10:20 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:28 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/teacher/delete-question", parameters={masked}
+2025-07-19 00:10:28 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#deleteQuestion(Long, HttpSession)
+2025-07-19 00:10:28 [http-nio-8080-exec-8] INFO  c.q.s.controller.TeacherController - Deleting question with id=115
+2025-07-19 00:10:28 [http-nio-8080-exec-8] INFO  c.q.s.service.QuestionService - Deleting question ID: 115
+2025-07-19 00:10:28 [http-nio-8080-exec-8] DEBUG c.q.springboot.service.TopicService - Updated topic question count to 9 for topicId: 1
+2025-07-19 00:10:28 [http-nio-8080-exec-8] INFO  c.q.s.service.QuestionService - Question deleted and topic count updated for topicId: 1
+2025-07-19 00:10:28 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.view.RedirectView - View name [redirect:], model {}
+2025-07-19 00:10:28 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 302 FOUND
+2025-07-19 00:10:28 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view", parameters={masked}
+2025-07-19 00:10:28 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:28 [http-nio-8080-exec-9] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=view
+2025-07-19 00:10:28 [http-nio-8080-exec-9] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:28 [http-nio-8080-exec-9] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:28 [http-nio-8080-exec-9] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:28 [http-nio-8080-exec-9] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:28 [http-nio-8080-exec-9] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: null
+2025-07-19 00:10:28 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@6f332f7c], selectedCourse=com.quiz.springboot.entity.MyCourse@6f332f7c, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 1 of 5 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=null, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:28 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:28 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:30 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view&courseId=101&topicId=&page=1", parameters={masked}
+2025-07-19 00:10:30 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:30 [http-nio-8080-exec-10] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=101, topicId=null, view=view
+2025-07-19 00:10:30 [http-nio-8080-exec-10] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:30 [http-nio-8080-exec-10] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:30 [http-nio-8080-exec-10] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:30 [http-nio-8080-exec-10] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:30 [http-nio-8080-exec-10] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: null
+2025-07-19 00:10:30 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@5231ced3], selectedCourse=com.quiz.springboot.entity.MyCourse@5231ced3, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 2 of 5 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=null, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:30 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:30 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:36 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view&courseId=101&topicId=1", parameters={masked}
+2025-07-19 00:10:36 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:36 [http-nio-8080-exec-1] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=101, topicId=1, view=view
+2025-07-19 00:10:36 [http-nio-8080-exec-1] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:36 [http-nio-8080-exec-1] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:36 [http-nio-8080-exec-1] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:36 [http-nio-8080-exec-1] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:36 [http-nio-8080-exec-1] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: 1
+2025-07-19 00:10:36 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@7281be2d], selectedCourse=com.quiz.springboot.entity.MyCourse@7281be2d, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 1 of 2 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=1, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:36 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:36 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:42 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view&courseId=101&topicId=1&page=1", parameters={masked}
+2025-07-19 00:10:42 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:42 [http-nio-8080-exec-3] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=101, topicId=1, view=view
+2025-07-19 00:10:42 [http-nio-8080-exec-3] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:42 [http-nio-8080-exec-3] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:42 [http-nio-8080-exec-3] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:42 [http-nio-8080-exec-3] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:42 [http-nio-8080-exec-3] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: 1
+2025-07-19 00:10:42 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@3515721c], selectedCourse=com.quiz.springboot.entity.MyCourse@3515721c, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 2 of 2 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=1, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:42 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:42 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:43 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=view&courseId=101&topicId=1&page=0", parameters={masked}
+2025-07-19 00:10:43 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:43 [http-nio-8080-exec-4] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=101, topicId=1, view=view
+2025-07-19 00:10:43 [http-nio-8080-exec-4] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:43 [http-nio-8080-exec-4] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:43 [http-nio-8080-exec-4] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:43 [http-nio-8080-exec-4] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:43 [http-nio-8080-exec-4] INFO  c.q.s.service.QuestionService - Paginating questions for courseId: 101, topicId: 1
+2025-07-19 00:10:43 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@296d38c0], selectedCourse=com.quiz.springboot.entity.MyCourse@296d38c0, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], questionsPage=Page 1 of 2 containing com.quiz.springboot.entity.MyQuestion instances, selectedTopicId=1, view=view, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.questionsPage=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:43 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:43 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:48 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=upload", parameters={masked}
+2025-07-19 00:10:48 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:48 [http-nio-8080-exec-5] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=upload
+2025-07-19 00:10:48 [http-nio-8080-exec-5] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:48 [http-nio-8080-exec-5] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:48 [http-nio-8080-exec-5] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:48 [http-nio-8080-exec-5] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:48 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@70ddf2e5], selectedCourse=com.quiz.springboot.entity.MyCourse@70ddf2e5, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], view=upload, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:48 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:48 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:55 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/teacher/upload-questions", parameters={multipart}
+2025-07-19 00:10:55 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#handleUpload(MultipartFile, HttpSession)
+2025-07-19 00:10:55 [http-nio-8080-exec-6] INFO  c.q.s.controller.TeacherController - Uploading Excel file for preview
+2025-07-19 00:10:56 [http-nio-8080-exec-6] INFO  c.q.s.service.QuestionService - Total questions found in Excel: 13
+2025-07-19 00:10:56 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.view.RedirectView - View name [redirect:], model {}
+2025-07-19 00:10:56 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 302 FOUND
+2025-07-19 00:10:56 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=upload", parameters={masked}
+2025-07-19 00:10:56 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:56 [http-nio-8080-exec-7] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=upload
+2025-07-19 00:10:56 [http-nio-8080-exec-7] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:56 [http-nio-8080-exec-7] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:56 [http-nio-8080-exec-7] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:56 [http-nio-8080-exec-7] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:56 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@18d877a8], selectedCourse=com.quiz.springboot.entity.MyCourse@18d877a8, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], view=upload, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:56 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:56 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:10:57 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/teacher/reset-upload", parameters={masked}
+2025-07-19 00:10:57 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#resetUpload(HttpSession)
+2025-07-19 00:10:57 [http-nio-8080-exec-8] INFO  c.q.s.controller.TeacherController - Resetting upload session
+2025-07-19 00:10:57 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.view.RedirectView - View name [redirect:], model {}
+2025-07-19 00:10:57 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 302 FOUND
+2025-07-19 00:10:57 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=upload", parameters={masked}
+2025-07-19 00:10:57 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:10:57 [http-nio-8080-exec-9] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=upload
+2025-07-19 00:10:57 [http-nio-8080-exec-9] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:10:57 [http-nio-8080-exec-9] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:10:57 [http-nio-8080-exec-9] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:10:57 [http-nio-8080-exec-9] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:10:57 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@20cbe8c6], selectedCourse=com.quiz.springboot.entity.MyCourse@20cbe8c6, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], view=upload, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:10:57 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:10:57 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:11:26 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/teacher/upload-questions", parameters={multipart}
+2025-07-19 00:11:26 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#handleUpload(MultipartFile, HttpSession)
+2025-07-19 00:11:26 [http-nio-8080-exec-10] INFO  c.q.s.controller.TeacherController - Uploading Excel file for preview
+2025-07-19 00:11:26 [http-nio-8080-exec-10] INFO  c.q.s.service.QuestionService - Total questions found in Excel: 13
+2025-07-19 00:11:26 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.view.RedirectView - View name [redirect:], model {}
+2025-07-19 00:11:26 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 302 FOUND
+2025-07-19 00:11:26 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/teacher/home?view=upload", parameters={masked}
+2025-07-19 00:11:26 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#teacherHome(Long, Long, String, Integer, HttpServletRequest, HttpSession, Model)
+2025-07-19 00:11:26 [http-nio-8080-exec-1] INFO  c.q.s.controller.TeacherController - Teacher home accessed with courseId=null, topicId=null, view=upload
+2025-07-19 00:11:26 [http-nio-8080-exec-1] INFO  c.q.springboot.service.CourseService - Fetching all courses from the database
+2025-07-19 00:11:26 [http-nio-8080-exec-1] DEBUG c.q.springboot.service.CourseService - Fetched 1 courses
+2025-07-19 00:11:26 [http-nio-8080-exec-1] INFO  c.q.springboot.service.CourseService - Fetching course by ID: 101
+2025-07-19 00:11:26 [http-nio-8080-exec-1] INFO  c.q.springboot.service.TopicService - Fetching topics for courseId: 101
+2025-07-19 00:11:26 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name [teacher-home], model {courses=[com.quiz.springboot.entity.MyCourse@22461bbd], selectedCourse=com.quiz.springboot.entity.MyCourse@22461bbd, topics=[MyCourseTopic(topicId=1, topicName=DataTypes and Variables, noOfQuestions=9), MyCourseTopic(topicId=2, topicName=Literals, noOfQuestions=13), MyCourseTopic(topicId=3, topicName=Operators, noOfQuestions=0), MyCourseTopic(topicId=4, topicName=Control Statements, noOfQuestions=0), MyCourseTopic(topicId=5, topicName=Arrays, noOfQuestions=0)], view=upload, org.springframework.validation.BindingResult.selectedCourse=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2025-07-19 00:11:26 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/myjsps/teacher-home.jsp]
+2025-07-19 00:11:26 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-07-19 00:11:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/teacher/confirm-upload", parameters={masked}
+2025-07-19 00:11:30 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.quiz.springboot.controller.TeacherController#confirmUpload(MultipartFile, Model)
+2025-07-19 00:11:30 [http-nio-8080-exec-2] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [0] in public java.lang.String com.quiz.springboot.controller.TeacherController.confirmUpload(org.springframework.web.multipart.MultipartFile,org.springframework.ui.Model): Current request is not a multipart request
+2025-07-19 00:11:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Failed to complete request: org.springframework.web.multipart.MultipartException: Current request is not a multipart request
+2025-07-19 00:11:30 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MultipartException: Current request is not a multipart request] with root cause
+org.springframework.web.multipart.MultipartException: Current request is not a multipart request
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:213)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:196)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-07-19 00:11:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={masked}
+2025-07-19 00:11:30 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-07-19 00:11:30 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 500
+2025-07-19 00:35:20 [RMI TCP Connection(31)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-07-19 00:35:20 [RMI TCP Connection(31)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-07-19 00:35:21 [RMI TCP Connection(31)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19 00:35:21 [RMI TCP Connection(31)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-19 00:35:21 [RMI TCP Connection(31)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

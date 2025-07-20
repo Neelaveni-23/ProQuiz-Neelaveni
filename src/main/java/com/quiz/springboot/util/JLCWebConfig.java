@@ -1,4 +1,4 @@
-package com.quiz.springboot;
+package com.quiz.springboot.util;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.JstlView;
 public class JLCWebConfig implements WebMvcConfigurer {
 
 	@Bean
-	public ViewResolver viewResolver() {
+	ViewResolver viewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 		resolver.setPrefix("/WEB-INF/myjsps/");
 		resolver.setSuffix(".jsp");

@@ -1,51 +1,24 @@
 package com.quiz.springboot.dao;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.transaction.Transactional;
-
+import com.quiz.springboot.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-
-import com.quiz.springboot.User;
+import org.springframework.transaction.annotation.Transactional;
 
 @Repository
-@Transactional
-public class UserDAO {
+public interface UserDAO extends JpaRepository<User, Long> {
 
-	@PersistenceContext
-	private EntityManager entityManager;
+	User findByEmailAndPassword(String email, String password);
 
-	public User verifyUser(String email, String password) {
-		try {
-			return entityManager.createQuery("FROM User WHERE email = :email AND password = :password", User.class)
-					.setParameter("email", email).setParameter("password", password).getSingleResult();
-		} catch (Exception e) {
-			return null;
-		}
-	}
+	User findByEmailAndOtp(String email, int otp);
 
-	public boolean verifyOtp(String email, int otp) {
+	User findByEmail(String email);
 
-		try {
-			User user = entityManager.createQuery("FROM User WHERE email = :email AND otp = :otp", User.class)
-					.setParameter("email", email).setParameter("otp", otp).getSingleResult();
-			return user != null;
-		} catch (Exception e) {
-			return false;
-		}
-	}
-
-	public void updateOtp(String email, int otp) {
-		entityManager.createQuery("UPDATE User SET otp = :otp WHERE email = :email").setParameter("otp", otp)
-				.setParameter("email", email).executeUpdate();
-	}
-
-	public User getUserByEmail(String email) {
-		try {
-			return entityManager.createQuery("FROM User WHERE email = :email", User.class).setParameter("email", email)
-					.getSingleResult();
-		} catch (Exception e) {
-			return null;
-		}
-	}
+	@Transactional
+	@Modifying
+	@Query("UPDATE User u SET u.otp = :otp WHERE u.email = :email")
+	void updateOtpByEmail(@Param("email") String email, @Param("otp") int otp);
 }
