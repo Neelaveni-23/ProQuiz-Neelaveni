@@ -46,7 +46,9 @@ CREATE TABLE myquestion_options (
 # Insert Query
 insert into myusers(user_id,email_id,fullname,otp,password,phone,status,user_role) 
 values(101,'neelimadande23.mca@gmail.com','Neelaveni',734593,'neelima123',9052260983,'Active',teacher);
-
+insert into mycourses(course_id,course_name) values(101,'Core Java');
+insert into mycourse_tooics(course_id,topics_id,topic_name,no_of_questions)
+values(101,1,'Data Types and variables',0);
 
 
 # To check dependency tree
